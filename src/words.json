@@ -1,13 +1,30 @@
 {
-    "Grüß Gott" : ["Greetings", "Saludos", "Buen día"],
-    "Mach’s gut!": ["Take care", "Cuidate"],
-    "Schlecht": ["Malo", "Bad"],
-    "Wie heißt das auf Deutsch?": ["Cómo se dice en Alemán?", "How do you say in german?"],
-    "Wie sagt man ... auf Deutsch?": ["Cómo se dice en Alemán?", "How do you say in german?"],
-    "Kanst du das widerholen?":  ["Can you repeat", "Puedes repetir"],
-    "Ich verstehe nicht": ["I don't understand", "No entiendo"],
-    "Eigenschaft":  ["propiedad", "property"],
-    "echter": ["verdadero", "real"],
-    "draußen":  ["outside", "afuera"],
-    "Feuerwehrmann":  ["firefighter", "bombero"]
+    "skills": {
+        "Grüß Gott" : ["Greetings", "Saludos", "Buen día"],
+        "Mach’s gut!": ["Take care", "Cuidate"],
+        "Wie heißt das auf Deutsch?": ["Cómo se dice en Alemán?", "How do you say in german?"],
+        "Wie sagt man ... auf Deutsch?": ["Cómo se dice en Alemán?", "How do you say in german?"],
+        "Kanst du das widerholen?":  ["Can you repeat", "Puedes repetir"],
+        "Ich verstehe nicht": ["I don't understand", "No entiendo"]
+    },
+    "adjectives": {
+        "schlecht": ["Malo", "Bad"],
+        "echter": ["verdadero", "real"]
+    },
+    "adberbs": {
+        "draußen":  ["outside", "afuera"]
+    },
+    "nouns": {
+        "Eigenschaft":  ["propiedad", "property"],
+        "Feuerwehrmann":  ["firefighter", "bombero"],
+        "Mitschülerin":  ["classmate", "compañero de clase"],
+        "Krankenpfleger":  ["nurse", "enfermero"]
+    },
+    "verbs": {
+        "schneiden":  ["to cut", "cortar"]
+    },
+    "question": {
+        "Wie":  ["how", "como"]
+    }
+
 }
