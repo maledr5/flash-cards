@@ -2,15 +2,20 @@ import './App.css';
 import words from './words.json'
 import {useRef, useState} from "react";
 
-const randomProperty = (obj) => {
+const getRandomNumber = (max, previous) => {
+    const random = Math.floor(Math.random() * max)
+    return random === previous ? getRandomNumber(max, previous) : random
+}
+const randomProperty = (obj, previousRandom) => {
     const keys = Object.keys(obj)
-    const randomIndex = keys.length * Math.random() << 0
-    return keys[randomIndex]
+    return keys[getRandomNumber(keys.length, previousRandom)]
 };
 
 function App() {
-    const [word, setWord] = useState(randomProperty(words))
+    const numberOfWords = Object.keys(words).length
     const [feedback, setFeedback] = useState("Type your answer")
+    const [previousRandomIndex, setPreviousRandomIndex] = useState(0)
+    const [word, setWord] = useState(randomProperty(words, previousRandomIndex))
 
     const answerInput = useRef(null)
 
@@ -22,6 +27,12 @@ function App() {
         }))
     }
 
+    const setNewRandomWord = () => {
+        const randomIndex = getRandomNumber(numberOfWords, previousRandomIndex)
+        setPreviousRandomIndex(randomIndex)
+        setWord(randomProperty(words, previousRandomIndex))
+    }
+
     const onFormSubmit = (event) => {
         event.preventDefault()
         const answer = answerInput.current.value
@@ -29,7 +40,7 @@ function App() {
             setFeedback("Correct!") :
             setFeedback(`Sorry, meaning is: ${translations.join(', ')}`)
         answerInput.current.value = ""
-        setWord(randomProperty(words))
+        setNewRandomWord()
     }
 
     return (
