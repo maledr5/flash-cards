@@ -45,7 +45,7 @@ function App() {
 
     const onFormSubmit = (event) => {
         event.preventDefault()
-        const answer = answerInput.current.value
+        const answer = answerInput.current.value.trim()
         isAnswerCorrect(answer) ?
             setFeedback("Correct!") :
             setFeedback(`Sorry, meaning is: ${translations.join(', ')}`)
