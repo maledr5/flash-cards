@@ -32,6 +32,7 @@ function App() {
     const translations = words[word]
 
     const isAnswerCorrect = (answer) => {
+        if(answer === "") return false
         return translations.some( (translation => {
             return translation.toLowerCase().includes(answer.toLowerCase())
         }))
