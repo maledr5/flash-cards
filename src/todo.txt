@@ -1,0 +1,4 @@
+
+
+- try the other way around, translation to german
+- provde better feedback with colors
