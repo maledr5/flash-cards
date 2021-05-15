@@ -1,4 +1,20 @@
 
 
-- try the other way around, translation to german
-- provde better feedback with colors
+- try the other way around, translation to german - Maybe showing pictures?
+- provide better feedback with colors
+- play with the gender, output a color or create another game to input the gender
+- Source images through google search api
+ https://stackoverflow.com/questions/49383268/can-i-embed-google-image-search-into-my-html5-webpage
+
+ [
+   {
+     "pronoun": "die",
+     "word": "Hose",
+     "plural": "Hosen",
+     "translations": ["pants", "pantalon"],
+     "file": "./imgs/die_hose",
+     "type": "noun",
+     "tags": "kleidung",
+     "needsPractice": true
+   }
+ ]

@@ -1,0 +1,16 @@
+[
+  {
+    "singular": "draußen",
+    "translations":   ["outside", "afuera"],
+    "type": "adverb",
+    "tags": ["general"],
+    "needsPractice": true
+  },
+  {
+    "singular": "manchmal",
+    "translations": ["sometimes", "algunas veces"],
+    "type": "adverb",
+    "tags": ["general"],
+    "needsPractice": true
+  }
+]

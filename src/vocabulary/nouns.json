@@ -1,0 +1,38 @@
+[
+  {
+    "pronoun": "die",
+    "singular": "Kleidung",
+    "plural": "Kleidungen",
+    "translations": ["clothes", "ropa"],
+    "type": "noun",
+    "tags": ["Kleidung", "clothes"],
+    "needsPractice": true
+  },
+  {
+    "pronoun": "die",
+    "singular": "Hose",
+    "plural": "Hosen",
+    "translations": ["pants", "pantalon"],
+    "type": "noun",
+    "tags": ["Kleidung", "clothes"],
+    "needsPractice": true
+  },
+  {
+    "pronoun": "die",
+    "singular": "Handschuh",
+    "plural": "Handschuhen",
+    "translations": ["glove", "guante"],
+    "type": "noun",
+    "tags": ["Kleidung", "clothes"],
+    "needsPractice": true
+  },
+  {
+    "pronoun": "der",
+    "singular": "Schuh",
+    "plural": "Schuhe",
+    "translations": ["shoe", "zapato"],
+    "type": "noun",
+    "tags": ["Kleidung", "clothes"],
+    "needsPractice": true
+  }
+]

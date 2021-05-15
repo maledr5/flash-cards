@@ -1,0 +1,9 @@
+[
+  {
+    "singular": "Grüß Gott",
+    "translations":  ["Greetings", "Saludos", "Buen día"],
+    "type": "skills",
+    "tags": ["general"],
+    "needsPractice": true
+  }
+]
