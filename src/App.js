@@ -34,7 +34,7 @@ function App() {
     const isAnswerCorrect = (answer) => {
         if(answer === "") return false
         return translations.some( (translation => {
-            return translation.toLowerCase().includes(answer.toLowerCase())
+            return translation.toLowerCase() === answer.toLowerCase()
         }))
     }
 
