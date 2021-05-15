@@ -2,15 +2,22 @@
     "skills": {
         "Grüß Gott" : ["Greetings", "Saludos", "Buen día"],
         "Mach’s gut!": ["Take care", "Cuidate"],
-        "Kanst du das widerholen?":  ["Can you repeat", "Puedes repetir"]
+        "viele Farben": ["many colors"],
+        "einen bunten Hose": ["many colors"]
     },
     "adjectives": {
         "schlecht": ["Malo", "Bad"],
         "echter": ["verdadero", "real"],
-        "weibliche": ["female","femenino"]
+        "weibliche": ["female","femenino"],
+        "gestreift": ["striped","rayado"],
+        "bunt": ["colorful","colorido"],
+        "koloriert": ["colorful","colorido"],
+        "teuer": ["expensive","caro"],
+        "wenig": ["little","pequeño"]
     },
-    "adberbs": {
-        "draußen":  ["outside", "afuera"]
+    "adverbs": {
+        "draußen":  ["outside", "afuera"],
+        "manchmal":  ["sometimes", "algunas veces"]
     },
     "nouns": {
         "Eigenschaft":  ["propiedad", "property"],
@@ -21,10 +28,40 @@
         "Verkäufer":  ["seller", "vendedor"],
         "Schauspieler":  ["actor"],
         "Lieder":  ["song", "cancion"],
-        "Sängerin":  ["singer", "cantante"]
+        "Sängerin":  ["singer", "cantante"],
+        "die Kleidung (pl)":  ["clothes", "ropa"],
+        "die Schuhe (pl)":  ["shoes", "zapatos"],
+        "die Handschuhe (pl)":  ["gloves", "guantes"],
+        "die Socken (pl)":  ["socks", "medias"],
+        "die Jeans":  ["jeans"],
+        "die Hose":  ["pants", "pantalon"],
+        "die Bluse":  ["blouse", "blusa"],
+        "die Jacke":  ["jacket", "chaqueta"],
+        "die Weste":  ["vest", "chaleco"],
+        "die Stiefel":  ["boots", "botas"],
+        "die Mode":  ["fashion", "moda"],
+        "die Mütze":  ["beanie", "gorro"],
+        "die Kappe":  ["cap", "gorra"],
+        "der Pullover":  ["sweather", "saco"],
+        "der Rock":  ["skirt", "falda"],
+        "der Mantel":  ["long coat", "chaqueta"],
+        "der Schuh":  ["shoe", "zapato"],
+        "der Schal":  ["scarf", "bufanda"],
+        "der Hut":  ["hat", "sombrero"],
+        "das Hemd":  ["shirt", "camisa"],
+        "das Lächeln":  ["smile", "sonrisa"],
+        "das Kleid":  ["dress", "vestido"],
+        "das T-Shirt":  ["T-shirt", "camiseta"],
+        "das halstuch":  ["neckerchief", "pañuelo"],
+        "das Holz":  ["wood", "maera"],
+        "das Leder":  ["leather", "cuero"],
+        "der Hals":  ["throat", "cuello"]
     },
     "verbs": {
-        "schneiden":  ["to cut", "cortar"]
+        "schneiden":  ["to cut", "cortar"],
+        "tragen":  ["to wear", "vestir"],
+        "lachen":  ["to laugh", "reir"],
+        "schaue":  ["to watch", "ver"]
     },
     "question": {
         "Wie":  ["how", "como"]
