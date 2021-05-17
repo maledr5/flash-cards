@@ -5,5 +5,54 @@
     "type": "skills",
     "tags": ["general"],
     "needsPractice": true
+  },
+  {
+    "singular": "Mach’s gut!",
+    "translations":  ["Take care", "Cuidate"],
+    "type": "skills",
+    "tags": ["general"],
+    "needsPractice": true
+  },
+  {
+    "singular": "Viele Farben",
+    "translations":  ["many colors"],
+    "type": "skills",
+    "tags": ["general"],
+    "needsPractice": true
+  },
+  {
+    "singular": "einen bunten Kleid",
+    "translations":  ["a colorful dress", "un vestido colorido"],
+    "type": "skills",
+    "tags": ["general", "Kleidung", "clothes"],
+    "needsPractice": true
+  },
+  {
+    "singular": "Wie heißt das auf Deutsch?",
+    "translations": ["Cómo se dice en Alemán?", "How do you say in german?"],
+    "type": "skills",
+    "tags": ["general"],
+    "needsPractice": false
+  },
+  {
+    "singular":  "Wie sagt man ... auf Deutsch?",
+    "translations": ["Cómo se dice en Alemán?", "How do you say in german?"],
+    "type": "skills",
+    "tags": ["general"],
+    "needsPractice": true
+  },
+  {
+    "singular": "Ich verstehe nicht",
+    "translations": ["I don't understand", "No entiendo"],
+    "type": "skills",
+    "tags": ["general"],
+    "needsPractice": true
+  },
+  {
+    "singular": "Kanst du das widerholen?",
+    "translations":  ["Can you repeat", "Puedes repetir"],
+    "type": "skills",
+    "tags": ["general"],
+    "needsPractice": false
   }
 ]
