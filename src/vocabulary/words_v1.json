@@ -3,33 +3,50 @@
         "Grüß Gott" : ["Greetings", "Saludos", "Buen día"],
         "Mach’s gut!": ["Take care", "Cuidate"],
         "viele Farben": ["many colors"],
-        "einen bunten Hose": ["many colors"]
+        "einen bunten Hose": ["many colors"],
+        "ich habe braunen Augen": ["I have brown eyes"],
+        "ein blau-gepunktetes Kleid": ["I have brown eyes"],
+        "ein gelb-blau-gestreiftes T-Shirt": ["I have brown eyes"]
     },
     "adjectives": {
         "schlecht": ["Malo", "Bad"],
         "echter": ["verdadero", "real"],
         "weibliche": ["female","femenino"],
         "gestreift": ["striped","rayado"],
+        "gepunktet": ["dotted","punteado"],
         "bunt": ["colorful","colorido"],
         "koloriert": ["colorful","colorido"],
         "teuer": ["expensive","caro"],
-        "wenig": ["little","pequeño"]
+        "wenig": ["little","pequeño"],
+        "lieblings":  ["favirite", "favorito"],
+        "hässlich":  ["ugly", "feo"],
+        "hell":  ["bright", "brillante"],
+        "dunkel":  ["dark", "obscuro"],
+        "bequem":  ["comfortable", "comodo"],
+        "dicke":  ["thick", "grueso"]
     },
     "adverbs": {
         "draußen":  ["outside", "afuera"],
-        "manchmal":  ["sometimes", "algunas veces"]
+        "manchmal":  ["sometimes", "algunas veces"],
+        "meisten":  ["most", "la mayoria"],
+        "nochmal":  ["again", "de nuevo"],
+        "zuerst":  ["first", "primero"],
+        "danach":  ["after", "despues"],
+        "früh":  ["early", "temprano"],
+        "niemand":  ["nobody", "nadie"]
     },
     "nouns": {
-        "Eigenschaft":  ["propiedad", "property"],
-        "Feuerwehrmann":  ["firefighter", "bombero"],
-        "Mitschülerin":  ["classmate", "compañero de clase"],
-        "Krankenpfleger":  ["nurse", "enfermero"],
-        "Bauarbeiter":  ["construction worker", "obrero"],
-        "Verkäufer":  ["seller", "vendedor"],
-        "Schauspieler":  ["actor"],
-        "Lieder":  ["song", "cancion"],
+        "die Eigenschaft":  ["propiedad", "property"],
+        "der Feuerwehrmann":  ["firefighter", "bombero"],
+        "der Mitschülerin":  ["classmate", "compañero de clase"],
+        "der Krankenpfleger":  ["nurse", "enfermero"],
+        "der Bauarbeiter":  ["construction worker", "obrero"],
+        "der Verkäufer":  ["seller", "vendedor"],
+        "der Schauspieler":  ["actor"],
+        "das Lieder":  ["song", "cancion"],
         "Sängerin":  ["singer", "cantante"],
         "die Kleidung (pl)":  ["clothes", "ropa"],
+        "die Klamotten (pl)":  ["clothes", "ropa"],
         "die Schuhe (pl)":  ["shoes", "zapatos"],
         "die Handschuhe (pl)":  ["gloves", "guantes"],
         "die Socken (pl)":  ["socks", "medias"],
@@ -55,13 +72,29 @@
         "das halstuch":  ["neckerchief", "pañuelo"],
         "das Holz":  ["wood", "madera"],
         "das Leder":  ["leather", "cuero"],
-        "der Hals":  ["throat", "cuello"]
+        "der Hals":  ["throat", "cuello"],
+        "der Würfel":  ["cube", "cubo"],
+        "der Schlafanzug":  ["pijama"]
     },
     "verbs": {
         "schneiden":  ["to cut", "cortar"],
         "tragen":  ["to wear", "vestir"],
         "lachen":  ["to laugh", "reir"],
-        "schaue":  ["to watch", "ver"]
+        "schauen":  ["to watch", "ver"],
+        "bereiten":  ["to prepare", "preparar"],
+        "anziehen":  ["to wear", "ponerse"],
+        "duscht":  ["take a shower", "tomauna ducha"],
+        "aufsteht":  ["get up", "lvantarse"],
+        "fernsehen":  ["watch tv", "mirar tv"],
+        "aufräumen":  ["to clean up", "limpiar"],
+        "anfangen":  ["to start", "empezer"],
+        "aufbauen":  ["to build", "construir"],
+        "entdeckt":  ["to discover", "descubrir"],
+        "empfinden":  ["to feel", "sentir"],
+        "versprechen":  ["to promise", "promesa"],
+        "abfahren":  ["to depart", "salir"],
+        "wegwerfen":  ["to throw away", "tirar"]
+
     },
     "question": {
         "Wie":  ["how", "como"]
