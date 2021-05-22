@@ -1,0 +1,43 @@
+{
+    "skills": {
+        "Grüß Gott" : ["Greetings", "Saludos", "Buen día"],
+        "Mach’s gut!": ["Take care", "Cuidate"],
+        "viele Farben": ["many colors"],
+        "einen bunten Hemd": ["a colorful shirt"],
+        "ich habe braunen Augen": ["I have brown eyes"],
+        "ein blau-gepunktetes Kleid": ["a blue dotted dress"],
+        "ein gelb-blau-gestreiftes T-Shirt": ["a yellow and blue striped t-shirt"]
+    },
+    "adjectives": {
+        "schlecht": ["Malo", "Bad"],
+        "echter": ["verdadero", "real"],
+        "weibliche": ["female","femenino"],
+        "gestreift": ["striped","rayado"],
+        "gepunktet": ["dotted","punteado"],
+        "bunt": ["colorful","colorido"],
+        "koloriert": ["colorful","colorido"],
+        "teuer": ["expensive","caro"],
+        "wenig": ["little","pequeño"],
+        "lieblings":  ["favourite", "favorito"],
+        "hässlich":  ["ugly", "feo"],
+        "hell":  ["bright", "brillante"],
+        "dunkel":  ["dark", "obscuro"],
+        "bequem":  ["comfortable", "comodo"],
+        "dicke":  ["thick", "grueso"]
+    },
+    "adverbs": {
+        "draußen":  ["outside", "afuera"],
+        "manchmal":  ["sometimes", "algunas veces"],
+        "meisten":  ["most", "la mayoria"],
+        "nochmal":  ["again", "de nuevo"],
+        "zuerst":  ["first", "primero"],
+        "danach":  ["after", "despues"],
+        "früh":  ["early", "temprano"],
+        "niemand":  ["nobody", "nadie"]
+    },
+    "nouns": {},
+    "verbs": {},
+    "question": {
+        "Wie":  ["how", "como"]
+    }
+}

@@ -1,5 +1,6 @@
 import {useRef, useState} from "react";
-import wordsByType from './vocabulary/words_v1.json'
+import wordsByType from './vocabulary/words_practice.json'
+// import wordsByType from './vocabulary/words_v1.json'
 
 const getRandomNumber = (max, previous) => {
     const random = Math.floor(Math.random() * max)

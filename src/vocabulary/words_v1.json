@@ -3,9 +3,9 @@
         "Grüß Gott" : ["Greetings", "Saludos", "Buen día"],
         "Mach’s gut!": ["Take care", "Cuidate"],
         "viele Farben": ["many colors"],
-        "einen bunten Hose": ["many colors"],
+        "einen bunten Hemd": ["a colorful shirt"],
         "ich habe braunen Augen": ["I have brown eyes"],
-        "ein blau-gepunktetes Kleid": ["I have brown eyes"],
+        "ein blau-gepunktetes Kleid": ["a blue dotted dress"],
         "ein gelb-blau-gestreiftes T-Shirt": ["I have brown eyes"]
     },
     "adjectives": {
@@ -18,12 +18,13 @@
         "koloriert": ["colorful","colorido"],
         "teuer": ["expensive","caro"],
         "wenig": ["little","pequeño"],
-        "lieblings":  ["favirite", "favorito"],
+        "lieblings":  ["favourite", "favorito"],
         "hässlich":  ["ugly", "feo"],
         "hell":  ["bright", "brillante"],
         "dunkel":  ["dark", "obscuro"],
         "bequem":  ["comfortable", "comodo"],
-        "dicke":  ["thick", "grueso"]
+        "dicke":  ["thick", "grueso"],
+        "andere": ["other"]
     },
     "adverbs": {
         "draußen":  ["outside", "afuera"],
@@ -74,9 +75,34 @@
         "das Leder":  ["leather", "cuero"],
         "der Hals":  ["throat", "cuello"],
         "der Würfel":  ["cube", "cubo"],
-        "der Schlafanzug":  ["pijama"]
+        "der Schlafanzug":  ["pijama"],
+        "der Wünsche":  ["wishes", "deseos"]
     },
     "verbs": {
+        "nehme":  ["take", "llevar"],
+        "zahlt":  ["pay", "pagar"],
+        "zu":  ["too", "muy"],
+        "genug":  ["enough", "suficiente"],
+        "ich trage große 42?":  ["I wear", "llevar"],
+        "welche Größe tragen Sie?":  ["I wear", "llevar"],
+        "wie viel kostet <nominative>?":  ["take", "llevar"],
+        "wie viel macht das?":  ["take", "llevar"],
+        "was kostet das?":  ["take", "llevar"],
+        "was ist der Preis für <accusatve>?":  ["take", "llevar"],
+        " Das kann ich mir nicht leisten.":  ["I can't afford", "llevar"],
+        "Zahlen Sie bar, ja, ich zahle bar":  ["I can't afford", "llevar"],
+        "Sie passen nich":  ["take", "llevar"],
+        "die Krawatte":  ["tie", "corbata"],
+        "die kasse":  ["cashier", "corbata"],
+        "die Umkleidekabine":  ["cashier", "vestidor"],
+        "umtauschen":  ["exchange", "cambiar"],
+        "schauen":  ["browsing", "mirar"],
+        "anprobieren":  ["try on", "probar"],
+        "ich schaue nur":  ["I am only browsing", "mirar"],
+        "billigere":  ["cheaper", "mirar"],
+        "kann ich die hose umtauschen spater":  ["cheaper", "mirar"],
+
+
         "schneiden":  ["to cut", "cortar"],
         "tragen":  ["to wear", "vestir"],
         "lachen":  ["to laugh", "reir"],
@@ -94,7 +120,6 @@
         "versprechen":  ["to promise", "promesa"],
         "abfahren":  ["to depart", "salir"],
         "wegwerfen":  ["to throw away", "tirar"]
-
     },
     "question": {
         "Wie":  ["how", "como"]
