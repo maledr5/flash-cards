@@ -1,4 +1,3 @@
-
 import {getRandomWord, getRandomPlural} from "./vocabulary/allWords";
 import {useRef, useState} from "react";
 
@@ -12,7 +11,7 @@ const Version2 = () => {
     const isAnswerCorrect = (answer) => {
         if(answer === "") return false
         return translations.some( (translation => {
-            return translation.toLowerCase() === answer.toLowerCase()
+            return translation.toLowerCase().trim() === answer.toLowerCase().trim()
         }))
     }
 

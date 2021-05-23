@@ -1,5 +1,6 @@
 {
     "skills": {
+        "wie sagt man auf deutsch" : ["how do you say in german"],
         "Grüß Gott" : ["Greetings", "Saludos", "Buen día"],
         "Mach’s gut!": ["Take care", "Cuidate"],
         "viele Farben": ["many colors"],
@@ -89,8 +90,10 @@
         "wie viel macht das?":  ["take", "llevar"],
         "was kostet das?":  ["take", "llevar"],
         "was ist der Preis für <accusatve>?":  ["take", "llevar"],
-        " Das kann ich mir nicht leisten.":  ["I can't afford", "llevar"],
+        "Das kann ich mir nicht leisten.":  ["I can't afford", "llevar"],
         "Zahlen Sie bar, ja, ich zahle bar":  ["I can't afford", "llevar"],
+        "Die Jacke kostet 100 Euro":  ["I can't afford", "llevar"],
+        "Der Preis fúr die Jacke ist 100 Euro":  ["I can't afford", "llevar"],
         "Sie passen nich":  ["take", "llevar"],
         "die Krawatte":  ["tie", "corbata"],
         "die kasse":  ["cashier", "corbata"],
