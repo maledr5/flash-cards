@@ -1,0 +1,20 @@
+needs practice,type,pronoun,singular,plural,translations,tags
+TRUE,noun,die,Eigenschaft,Eigenschaften,"property, propiedad",
+TRUE,noun,das,Geschäft,Geschäfte ,business,shopping
+TRUE,noun,der,Stift,Stifte,pen,
+TRUE,noun,das,Angebot,Angebote,"offer, oferta",shopping
+TRUE,noun,die,Sache,Sachen,thing,shopping
+TRUE,noun,das,Geld,Gelder,money,shopping
+TRUE,noun,die,Karte,,card,shopping
+TRUE,noun,das,Bargeld (bar),-,"cash, efectivo",shopping
+TRUE,noun,das,Geschenk,Geschenke,gift,shopping
+TRUE,noun,die,Münze,Münzen,coin,shopping
+TRUE,noun,der,Schein,Scheine,"bill, billete",shopping
+TRUE,adverb,,beides,,both,shopping
+TRUE,adjective,,teuer,,expensive,shopping
+TRUE,adjective,,günstig,,cheap,shopping
+TRUE,adjective,,billig,,cheap,shopping
+TRUE,adjective,,wenig,,poco,shopping
+TRUE,verb,,holen,,fetch,shopping
+TRUE,verb,,kosten,,cost,shopping
+TRUE,verb,,zahlen,,pay,shopping
