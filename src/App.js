@@ -1,5 +1,5 @@
 import './App.css';
-import Version1 from "./v1";
+// import Version1 from "./v1";
 import Version2 from "./v2";
 
 

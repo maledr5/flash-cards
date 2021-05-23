@@ -6,9 +6,10 @@ const words = data.map((word) => ({
 }))
 console.log('words', words)
 
-const getRandomWord = (previousWord) => {
-    const randomNum = Math.floor(Math.random() * words.length)
-    return words[randomNum]
+const getRandomWord = (categoryFilter) => {
+    const filteredWords = categoryFilter === 'all' ? words : words.filter(word => word.category === categoryFilter)
+    const randomNum = Math.floor(Math.random() * filteredWords.length)
+    return filteredWords[randomNum]
 }
 
 const getRandomPlural = (word) => {
@@ -16,4 +17,9 @@ const getRandomPlural = (word) => {
     return isPlural && word.type === 'noun' && word.plural != null ? word.plural : word.singular
 }
 
-export { words, getRandomWord, getRandomPlural}
+const getCategories = () => {
+    const allCategories = words.map(word => word.category)
+    return ['all', ...new Set(allCategories)]
+}
+
+export { words, getRandomWord, getRandomPlural, getCategories}

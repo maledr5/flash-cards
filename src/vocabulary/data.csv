@@ -1,7 +1,7 @@
-needs practice,type,pronoun,singular,plural,translations,tags
-TRUE,noun,die,Eigenschaft,Eigenschaften,"property, propiedad",
+needsPractice,type,pronoun,singular,plural,translations,category
+TRUE,noun,die,Eigenschaft,Eigenschaften,"property, propiedad",general
 TRUE,noun,das,Geschäft,Geschäfte ,business,shopping
-TRUE,noun,der,Stift,Stifte,pen,
+TRUE,noun,der,Stift,Stifte,pen,general
 TRUE,noun,das,Angebot,Angebote,"offer, oferta",shopping
 TRUE,noun,die,Sache,Sachen,thing,shopping
 TRUE,noun,das,Geld,Gelder,money,shopping
@@ -18,3 +18,20 @@ TRUE,adjective,,wenig,,poco,shopping
 TRUE,verb,,holen,,fetch,shopping
 TRUE,verb,,kosten,,cost,shopping
 TRUE,verb,,zahlen,,pay,shopping
+TRUE,verb,,tragen,,"to wear, vestir",clothes
+TRUE,verb,,anziehen,,"to wear, ponerse",clothes
+TRUE,verb,,schneiden,,"to cut, cortar",general
+TRUE,verb,,lachen,,"to laugh, reir",general
+TRUE,verb,,schauen,,"to watch, ver",general
+TRUE,verb,,bereiten,,"to prepare, preparar",general
+TRUE,verb,,duscht,,"take a shower, tomar una ducha",general
+TRUE,verb,,aufsteht,,"get up, lvantarse",trennbare
+TRUE,verb,,fernsehen,,"watch tv, mirar tv",trennbare
+TRUE,verb,,aufräumen,,"to clean up, limpiar",trennbare
+TRUE,verb,,anfangen,,"to start, empezer",trennbare
+TRUE,verb,,aufbauen,,"to build, construir",trennbare
+TRUE,verb,,entdeckt,,"to discover, descubrir",trennbare
+TRUE,verb,,empfinden,,"to feel, sentir",trennbare
+TRUE,verb,,versprechen,,"to promise, promesa",trennbare
+TRUE,verb,,abfahren,,"to depart, salir",trennbare
+TRUE,verb,,wegwerfen,,"to throw away, tirar",trennbare
