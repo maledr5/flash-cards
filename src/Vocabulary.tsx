@@ -1,7 +1,8 @@
+import React, { ChangeEvent, FormEvent } from "react";
 import {getRandomWord, getRandomPlural, getCategories} from "./vocabulary/allWords";
 import {useEffect, useRef, useState} from "react";
 
-const Version2 = () => {
+const Vocabulary = () => {
     const [feedback, setFeedback] = useState("Type your answer")
     const [selectedCategory, setSelectedCategory] = useState("all")
     const [randomWord, setRandomWord] = useState(getRandomWord(selectedCategory))
@@ -11,28 +12,33 @@ const Version2 = () => {
         setRandomWord(getRandomWord(selectedCategory))
     },[selectedCategory])
 
-    const answerInput = useRef(null)
+    const answerInput = useRef<HTMLInputElement>(null)
 
-    const isAnswerCorrect = (answer) => {
+    const isAnswerCorrect = (answer: string) => {
         if(answer === "") return false
         return translations.some( (translation => {
             return translation.toLowerCase().trim() === answer.toLowerCase().trim()
         }))
     }
 
-    const onFormSubmit = (event) => {
+    const onFormSubmit = (event: FormEvent<HTMLFormElement>) => {
         event.preventDefault()
-        const answer = answerInput.current.value.trim()
-        isAnswerCorrect(answer) ?
-            setFeedback("Correct!") :
-            setFeedback(`Sorry, meaning is: ${translations.join(', ')}`)
-        answerInput.current.value = ""
+        if (answerInput && answerInput.current) {
+            const answer = answerInput.current.value.trim() || ""
+            isAnswerCorrect(answer) ?
+                setFeedback("Correct!") :
+                setFeedback(`Sorry, meaning is: ${translations.join(', ')}`)
+            answerInput.current.value = ""
+        }
         setRandomWord(getRandomWord(selectedCategory))
     }
 
-    const renderCategories = () => getCategories().map(category => (<option value={category} key={category}>{category}</option>))
+    const renderCategories = () => getCategories()
+        .map(category => (
+            <option value={category} key={category}>{category}</option>
+        ))
 
-    const onCategorySelected = (e) => {
+    const onCategorySelected = (e: ChangeEvent<HTMLSelectElement>) => {
         const newCategory = e.target.value
         setSelectedCategory(newCategory)
     }
@@ -51,4 +57,4 @@ const Version2 = () => {
     );
 }
 
-export default Version2;
+export default Vocabulary;

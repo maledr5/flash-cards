@@ -1,11 +1,11 @@
 import './App.css';
 // import Version1 from "./v1";
-import Version2 from "./v2";
+import Vocabulary from "./Vocabulary";
 
 
 function App() {
     // return <Version1 />
-    return <Version2 />
+    return <Vocabulary />
 }
 
 export default App;
