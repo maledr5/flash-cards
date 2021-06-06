@@ -1,15 +1,16 @@
 import React, { ChangeEvent, FormEvent } from "react";
-import {getRandomWord, getRandomPlural, getCategories} from "./vocabulary/allWords";
+import { getRandomWord, getRandomPlural, getCategories, getTypes } from "./vocabulary/allWords";
 import {useEffect, useRef, useState} from "react";
 
 const Vocabulary = () => {
     const [feedback, setFeedback] = useState("Type your answer")
     const [selectedCategory, setSelectedCategory] = useState("all")
-    const [randomWord, setRandomWord] = useState(getRandomWord(selectedCategory))
+    const [selectedType, setSelectedType] = useState("all")
+    const [randomWord, setRandomWord] = useState(getRandomWord(selectedCategory, selectedType))
     const translations = randomWord.translations
 
     useEffect(()=>{
-        setRandomWord(getRandomWord(selectedCategory))
+        setRandomWord(getRandomWord(selectedCategory, selectedType))
     },[selectedCategory])
 
     const answerInput = useRef<HTMLInputElement>(null)
@@ -30,7 +31,7 @@ const Vocabulary = () => {
                 setFeedback(`Sorry, meaning is: ${translations.join(', ')}`)
             answerInput.current.value = ""
         }
-        setRandomWord(getRandomWord(selectedCategory))
+        setRandomWord(getRandomWord(selectedCategory, selectedType))
     }
 
     const renderCategories = () => getCategories()
@@ -43,11 +44,24 @@ const Vocabulary = () => {
         setSelectedCategory(newCategory)
     }
 
+    const renderTypes = () => getTypes()
+        .map(type => (
+            <option value={type} key={type}>{type}</option>
+        ))
+
+    const onTypeSelected = (e: ChangeEvent<HTMLSelectElement>) => {
+        const newCategory = e.target.value
+        setSelectedType(newCategory)
+    }
+
     return (
         <div className="App" >
             <form onSubmit={onFormSubmit} >
                 <select onChange={onCategorySelected}>
                     {renderCategories()}
+                </select>
+                <select onChange={onTypeSelected}>
+                    {renderTypes()}
                 </select>
                 <h1>{getRandomPlural(randomWord)} ({randomWord.category})</h1>
                 <input type="text" ref={answerInput}/>
