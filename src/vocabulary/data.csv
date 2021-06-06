@@ -1,37 +1,103 @@
-needsPractice,type,pronoun,singular,plural,translations,category
-TRUE,noun,die,Eigenschaft,Eigenschaften,"property, propiedad",general
-TRUE,noun,das,Geschäft,Geschäfte ,business,shopping
-TRUE,noun,der,Stift,Stifte,pen,general
-TRUE,noun,das,Angebot,Angebote,"offer, oferta",shopping
-TRUE,noun,die,Sache,Sachen,thing,shopping
-TRUE,noun,das,Geld,Gelder,money,shopping
-TRUE,noun,die,Karte,,card,shopping
-TRUE,noun,das,Bargeld (bar),,"cash, efectivo",shopping
-TRUE,noun,das,Geschenk,Geschenke,gift,shopping
-TRUE,noun,die,Münze,Münzen,coin,shopping
-TRUE,noun,der,Schein,Scheine,"bill, billete",shopping
-TRUE,adverb,,beides,,both,shopping
-TRUE,adjective,,teuer,,expensive,shopping
-TRUE,adjective,,günstig,,cheap,shopping
-TRUE,adjective,,billig,,cheap,shopping
-TRUE,adjective,,wenig,,poco,shopping
-TRUE,verb,,holen,,fetch,shopping
-TRUE,verb,,kosten,,cost,shopping
-TRUE,verb,,zahlen,,pay,shopping
-TRUE,verb,,tragen,,"to wear, vestir",clothes
-TRUE,verb,,anziehen,,"to wear, ponerse",clothes
-TRUE,verb,,schneiden,,"to cut, cortar",general
-TRUE,verb,,lachen,,"to laugh, reir",general
-TRUE,verb,,schauen,,"to watch, ver",general
-TRUE,verb,,bereiten,,"to prepare, preparar",general
-TRUE,verb,,duscht,,"take a shower, tomar una ducha",general
-TRUE,verb,,aufsteht,,"get up, lvantarse",trennbare
-TRUE,verb,,fernsehen,,"watch tv, mirar tv",trennbare
-TRUE,verb,,aufräumen,,"to clean up, limpiar",trennbare
-TRUE,verb,,anfangen,,"to start, empezer",trennbare
-TRUE,verb,,aufbauen,,"to build, construir",trennbare
-TRUE,verb,,entdeckt,,"to discover, descubrir",trennbare
-TRUE,verb,,empfinden,,"to feel, sentir",trennbare
-TRUE,verb,,versprechen,,"to promise, promesa",trennbare
-TRUE,verb,,abfahren,,"to depart, salir",trennbare
-TRUE,verb,,wegwerfen,,"to throw away, tirar",trennbare
+needsPractice,type,pronoun,singular,plural,translations,category,
+TRUE,adjective,,teuer,,expensive,shopping,
+TRUE,adjective,,günstig,,cheap,shopping,
+TRUE,adjective,,billig,,cheap,shopping,
+TRUE,adjective,,wenig,,"little, poco",shopping,
+TRUE,adjective,,schlecht,,"malo, bad",general,
+TRUE,adjective,,echter,,"verdadero, real",general,
+TRUE,adjective,,weibliche,,"female,femenino",general,
+TRUE,adjective,,gestreift,,"striped,rayado",shopping,
+TRUE,adjective,,gepunktet,,"dotted,punteado",shopping,
+TRUE,adjective,,bunt,,"colorful,colorido",shopping,
+TRUE,adjective,,koloriert,,"colorful,colorido",shopping,
+TRUE,adjective,,lieblings,,"favourite, favorito",general,
+TRUE,adjective,,hässlich,,"ugly, feo",general,
+TRUE,adjective,,hell,,"bright, brillante",general,
+TRUE,adjective,,dunkel,,"dark, obscuro",general,
+TRUE,adjective,,bequem,,"comfortable, comodo",general,
+TRUE,adjective,,dicke,,"thick, grueso",general,
+TRUE,adverb,,beides,,both,shopping,
+TRUE,adverb,,andere,,"other, otro",general,
+TRUE,adverb,,draußen,,"outside, afuera",general,
+TRUE,adverb,,manchmal,,"sometimes, algunas veces",general,
+TRUE,adverb,,meisten,,"most, la mayoria",general,
+TRUE,adverb,,nochmal,,"again, de nuevo",general,
+TRUE,adverb,,zuerst,,"first, primero",general,
+TRUE,adverb,,danach,,"after, despues",general,
+TRUE,adverb,,früh,,"early, temprano",general,
+TRUE,adverb,,niemand,,"nobody, nadie",general,
+TRUE,noun,die,Eigenschaft,Eigenschaften,"property, propiedad",general,
+TRUE,noun,das,Geschäft,Geschäfte ,business,shopping,
+TRUE,noun,der,Stift,Stifte,pen,general,
+TRUE,noun,das,Angebot,Angebote,"offer, oferta",shopping,
+TRUE,noun,die,Sache,Sachen,thing,shopping,
+TRUE,noun,das,Geld,Gelder,money,shopping,
+TRUE,noun,die,Karte,,card,shopping,
+TRUE,noun,das,Bargeld (bar),,"cash, efectivo",shopping,
+TRUE,noun,das,Geschenk,Geschenke,gift,shopping,
+TRUE,noun,die,Münze,Münzen,coin,shopping,
+TRUE,noun,der,Schein,Scheine,"bill, billete",shopping,
+TRUE,noun,der,Feuerwehrmann,,"firefighter, bombero",professions,
+TRUE,noun,der,Mitschülerin,,"classmate, compañero de clase",professions,
+TRUE,noun,der,Krankenpfleger,,"nurse, enfermero",professions,health
+TRUE,noun,der,Bauarbeiter,,"construction worker, obrero",house,
+TRUE,noun,der,Verkäufer,,"seller, vendedor",shopping,
+TRUE,noun,der,Schauspieler,,actor,professions,
+TRUE,noun,das,Lieder,,"song, cancion",general,
+TRUE,noun,die,Kleidung (pl),Kleidung (pl),"clothes, ropa",shopping,
+TRUE,noun,die,Klamotten (pl),Klamotten (pl),"clothes, ropa",shopping,
+TRUE,noun,die,Schuh,Schuhe,"shoes, zapatos",shopping,
+TRUE,noun,die,Handschuh,Handschuhe,"gloves, guantes",shopping,
+TRUE,noun,die,Socke,Socken,"socks, medias",shopping,
+TRUE,noun,die,Jeans,Jeans,jeans,shopping,
+TRUE,noun,die,Hose,,"pants, pantalon",shopping,
+TRUE,noun,die,Bluse,,"blouse, blusa",shopping,
+TRUE,noun,die,Jacke,,"jacket, chaqueta",shopping,
+TRUE,noun,die,Weste,,"vest, chaleco",shopping,
+TRUE,noun,die,Stiefel,,"boots, botas",shopping,
+TRUE,noun,die,Mode,,"fashion, moda",shopping,
+TRUE,noun,die,Mütze,,"beanie, gorro",shopping,
+TRUE,noun,die,Kappe,,"cap, gorra",shopping,
+TRUE,noun,der,Pullover,,"sweather, saco",shopping,
+TRUE,noun,der,Rock,,"skirt, falda",shopping,
+TRUE,noun,der,Mantel,,"long coat, chaqueta",shopping,
+TRUE,noun,der,Schal,,"scarf, bufanda",shopping,
+TRUE,noun,der,Hut,,"hat, sombrero",shopping,
+TRUE,noun,das,Hemd,,"shirt, camisa",shopping,
+TRUE,noun,das,Lächeln,,"smile, sonrisa",shopping,
+TRUE,noun,das,Kleid,,"dress, vestido",general,
+TRUE,noun,das,T-Shirt,,"T-shirt, camiseta",shopping,
+TRUE,noun,das,halstuch,,"neckerchief, pañuelo",shopping,
+TRUE,noun,das,Holz,,"wood, madera",shopping,
+TRUE,noun,das,Leder,,"leather, cuero",general,
+TRUE,noun,der,Hals,,"throat, cuello",general,
+TRUE,noun,der,Würfel,,"cube, cubo",body,
+TRUE,noun,der,Schlafanzug,,pijama,general,
+TRUE,noun,der,Wünsche,,"wishes, deseos",shopping,
+TRUE,noun,die,Krawatte,,"tie, corbata",general,
+TRUE,noun,die,kasse,,"cashier, caja",shopping,
+TRUE,noun,die,Umkleidekabine,,"changing room, vestidor",shopping,
+TRUE,noun,die,Sängerin,,"singer, cantante",professions,
+TRUE,question,,Wie,,"how, como",questions,
+TRUE,verb,,holen,,fetch,shopping,
+TRUE,verb,,kosten,,cost,shopping,
+TRUE,verb,,zahlen,,pay,shopping,
+TRUE,verb,,tragen,,"wear, vestir",shopping,
+TRUE,verb,,anziehen,,"wear, ponerse",shopping,
+TRUE,verb,,schneiden,,"cut, cortar",general,
+TRUE,verb,,lachen,,"laugh, reir",general,
+TRUE,verb,,schauen,,"watch, ver",general,
+TRUE,verb,,bereiten,,"prepare, preparar",general,
+TRUE,verb,,duscht,,"take a shower, tomar una ducha",general,
+TRUE,verb,,aufsteht,,"get up, lvantarse",trennbare,
+TRUE,verb,,fernsehen,,"watch tv, mirar tv",trennbare,
+TRUE,verb,,aufräumen,,"clean up, limpiar",trennbare,
+TRUE,verb,,anfangen,,"start, empezer",trennbare,
+TRUE,verb,,aufbauen,,"build, construir",trennbare,
+TRUE,verb,,entdeckt,,"discover, descubrir",trennbare,
+TRUE,verb,,empfinden,,"feel, sentir",trennbare,
+TRUE,verb,,versprechen,,"promise, promesa",trennbare,
+TRUE,verb,,abfahren,,"depart, salir",trennbare,
+TRUE,verb,,wegwerfen,,"throw away, tirar",trennbare,
+TRUE,verb,,anprobieren,,"try on, probarse",shopping,
+TRUE,verb,,umtauschen,,"exchange, cambiar",shopping,

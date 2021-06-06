@@ -4,7 +4,6 @@ const words = data.map((word) => ({
     ...word,
     translations: word.translations.split(',')
 }))
-console.log('words', words)
 
 const getRandomWord = (categoryFilter) => {
     const filteredWords = categoryFilter === 'all' ? words : words.filter(word => word.category === categoryFilter)
