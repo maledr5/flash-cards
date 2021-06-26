@@ -8,7 +8,7 @@ type CSVWord = {
     singular: string
     plural: string
     translations: string
-    category: string
+    categories: string
 }
 
 type Word = {
@@ -18,20 +18,26 @@ type Word = {
     singular: string
     plural: string
     translations: string[]
-    category: string
+    categories: string[]
 }
 
 const words: Word[] = data.map((word: CSVWord) => ({
     ...word,
-    translations: word.translations.split(',')
+    translations: word.translations.split(',').map(translation => translation.trim()),
+    categories: word.categories.split(',').map(category => category.trim())
 }))
 
 const ALL_CATEGORIES = 'All Categories'
 const ALL_TYPES = 'All Types'
 
+const filterByCategory = (categoryFilter: string) => {
+    return words.filter(word => {
+        return word.categories.find(category => category === categoryFilter)
+    })
+}
+
 const getRandomWord = (categoryFilter: string, TypeFilter: string) => {
-    console.log("categoryFilter", categoryFilter)
-    let filteredByCategory = categoryFilter === ALL_CATEGORIES ? words : words.filter(word => word.category === categoryFilter)
+    let filteredByCategory = categoryFilter === ALL_CATEGORIES ? words : filterByCategory(categoryFilter)
     const filteredWords = TypeFilter === ALL_TYPES ? filteredByCategory : filteredByCategory.filter(word => word.type === TypeFilter)
     const randomNum = Math.floor(Math.random() * filteredWords.length)
     return filteredWords[randomNum]
@@ -43,7 +49,10 @@ const getRandomPlural = (word: Word) => {
 }
 
 const getCategories = () => {
-    const allCategories = words.map(word => word.category)
+    const allCategories: string[] = []
+    words.map(word => {
+        allCategories.push(...word.categories)
+    })
     const uniqueCategories = Array.from(new Set(allCategories))
     return [ALL_CATEGORIES, ...uniqueCategories]
 }

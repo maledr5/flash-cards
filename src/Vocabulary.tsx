@@ -70,7 +70,7 @@ const Vocabulary = () => {
                 <select onChange={onTypeSelected}>
                     {renderTypes()}
                 </select>
-                <h1>{getRandomPlural(randomWord)} ({randomWord.category})</h1>
+                <h1>{getRandomPlural(randomWord)}</h1>
                 <input type="text" ref={answerInput}/>
                 <h2>{feedback}</h2>
             </form>
