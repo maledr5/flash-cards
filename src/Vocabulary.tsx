@@ -1,17 +1,24 @@
 import React, { ChangeEvent, FormEvent } from "react";
-import { getRandomWord, getRandomPlural, getCategories, getTypes } from "./vocabulary/allWords";
+import {
+    getRandomWord,
+    getRandomPlural,
+    getCategories,
+    getTypes,
+    ALL_CATEGORIES,
+    ALL_TYPES
+} from "./vocabulary/allWords";
 import {useEffect, useRef, useState} from "react";
 
 const Vocabulary = () => {
     const [feedback, setFeedback] = useState("Type your answer")
-    const [selectedCategory, setSelectedCategory] = useState("all")
-    const [selectedType, setSelectedType] = useState("all")
+    const [selectedCategory, setSelectedCategory] = useState(ALL_CATEGORIES)
+    const [selectedType, setSelectedType] = useState(ALL_TYPES)
     const [randomWord, setRandomWord] = useState(getRandomWord(selectedCategory, selectedType))
     const translations = randomWord.translations
 
     useEffect(()=>{
         setRandomWord(getRandomWord(selectedCategory, selectedType))
-    },[selectedCategory])
+    },[selectedCategory, selectedType])
 
     const answerInput = useRef<HTMLInputElement>(null)
 
