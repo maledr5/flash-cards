@@ -1,16 +1,16 @@
 needsPractice,type,pronoun,singular,plural,translations,categories,class
-TRUE,adverb,,beides,,"both, ambos",adverb,
-TRUE,adverb,,andere,,"other, otro",adverb,
-TRUE,adverb,,draußen,,"outside, afuera",adverb,
-TRUE,adverb,,manchmal,,"sometimes, algunas veces",adverb,
-TRUE,adverb,,meisten,,"most, la mayoria",adverb,
-TRUE,adverb,,nochmal,,"again, de nuevo",adverb,
-TRUE,adverb,,zuerst,,"first, primero",adverb,
-TRUE,adverb,,danach,,"after, despues",adverb,
-TRUE,adverb,,früh,,"early, temprano",adverb,
-TRUE,adverb,,niemand,,"nobody, nadie",adverb,
-TRUE,adverb,,immer,,"always, siempre",adverb,
-TRUE,adverb,,unterschied,,"difference, diferencia",adverb,
+TRUE,adverb,,beides,,"both, ambos",general,
+TRUE,adverb,,andere,,"other, otro",general,
+TRUE,adverb,,draußen,,"outside, afuera",general,
+TRUE,adverb,,manchmal,,"sometimes, algunas veces",general,
+TRUE,adverb,,meisten,,"most, la mayoria",general,
+TRUE,adverb,,nochmal,,"again, de nuevo",general,
+TRUE,adverb,,zuerst,,"first, primero",general,
+TRUE,adverb,,danach,,"after, despues",general,
+TRUE,adverb,,früh,,"early, temprano",general,
+TRUE,adverb,,niemand,,"nobody, nadie",general,
+TRUE,adverb,,immer,,"always, siempre",general,
+TRUE,adverb,,unterschied,,"difference, diferencia",general,
 TRUE,noun,der,Würfel,,"cube, cubo",body,
 TRUE,adjective,,schlecht,,"malo, bad",general,
 TRUE,adjective,,echter,,"verdadero, real",general,
@@ -66,7 +66,7 @@ TRUE,noun,die ,Post,Post,"post, correo",officeEquipment,215
 TRUE,noun,der,Bleistift,Bleistifte,"pencil, lapiz",officeEquipment,215
 TRUE,noun,das,Internet,,internet,officeEquipment,215
 TRUE,noun,das,Dokument,Dokumente,"document, documento",officeEquipment,215
-TRUE,noun,die ,Postkarte,Postkarten,"postcard, postal",officeEquipment,215
+TRUE,noun,die ,Postkarte,Postkarten,"postcard, postal","officeEquipment, travel",215
 TRUE,verb,,schicken (dir),,"send, enviarte",officeEquipment,215
 TRUE,verb,,verschicken,,"send, enviar",officeEquipment,215
 TRUE,noun,die,Anschrift,Anschriften,"address, direccion",officeEquipment,215
@@ -194,11 +194,11 @@ TRUE,noun,das,Büro,Büros,"office, oficina",work,211
 TRUE,noun,das,Meeting,,"meeting, reunion",work,211
 TRUE,verb,,bauen,,"build, construir",work,211
 TRUE,verb,,verkaufen,,"sell, vender",work,211
-TRUE,adjective,,hart,,"hard, dificil",work,211
+TRUE,adjective,,hart,,"hard, dificil",general,211
 TRUE,adjective,,gut bezahlt,,"well paid, bien pagado",work,211
 TRUE,adjective,,schlecht bezahlt,,"poorly paid, mal pagado",work,211
 TRUE,adjective,,anstrengend,,"exhausting, agotador",work,211
-TRUE,adjective,,einfach,,"easy, facil",work,211
+TRUE,adjective,,einfach,,"easy, facil",general,211
 TRUE,adjective,,langweilig,,"boring, aburrido",work,211
 TRUE,verb,,planen,,"plan, planear",work,212
 TRUE,verb,,untersuchen,,"examine, examinar",work,212
@@ -208,8 +208,8 @@ TRUE,verb,,reparieren,,"repair, reparar",work,212
 TRUE,verb,,kochen,,"cook, cocinar",work,212
 TRUE,verb,,haare schneiden,,"cut hair, cortar cabello",work,212
 TRUE,verb,,unterrichten,,"teacher, profesor",work,212
-TRUE,adjective,,in Vollzeit,,"full-time, tiempo completo",work,212
-TRUE,adjective,,in Teilzeit,,part time- medio tiempo,work,212
+TRUE,adjective,,in Vollzeit,,"full time, tiempo completo",work,212
+TRUE,adjective,,in Teilzeit,,"part time, medio tiempo",work,212
 TRUE,adjective,,frei,,"free, libre",work,212
 TRUE,adjective,,arbeitslos,,"unemployed, desempleado",work,212
 TRUE,verb,,pendeln,,commute,work,212
@@ -229,11 +229,11 @@ TRUE,verb,,werden,,"become, volverse",work,214
 TRUE,noun,die,Reise,Reisen,"travel, viaje",travel,251
 TRUE,verb,,reisen,,"travel, viajar",travel,251
 TRUE,noun,der,Koffer,Koffer,"suitcase, maleta",travel,251
-TRUE,adjective,,schwer,,heavy,travel,251
+TRUE,adjective,,schwer,,"heavy, pesado",general,251
 TRUE,noun,das,Gepäck,Gepäcke,"luggage, equipaje",travel,251
 TRUE,verb,,einpacken,,"pack in, empacar",travel,251
 TRUE,verb,,auspacken,,"pack out, desempacar",travel,251
-TRUE,adjective,,leer,,empty,travel,251
+TRUE,adjective,,leer,,"empty, vacio",general,251
 TRUE,adverb,,bisher,,so far,"general, travel",251
 TRUE,noun,die,Sehenswürdigkeit,Sehenswürdigkeiten,"worth seeing, sightseeing, turismo",travel,251
 TRUE,noun,der,Urlaub,Urlaube,"vacation, vacacion",travel,251
@@ -242,7 +242,11 @@ TRUE,noun,der,Pass,Pässe,pasaporte,travel,251
 TRUE,noun,die,Gesundheitsversicherung,,"insurance, seguro de salud",travel,251
 TRUE,noun,die,Krankenversicherung,,"insurance, seguro de salud","general, travel",251
 TRUE,verb,,brauchen,,"need, necesitar",travel,251
-TRUE,noun,die,Sonne,Sonnen,"sun, sol",travel,251
+TRUE,noun,die,Sonne,Sonnen,"sun, sol","travel, weather",251
+TRUE,verb,,scheinen,,"shine, brillar",travel,251
+TRUE,noun,das,Meer,Meere,"sea, mar",travel,251
+TRUE,adjective,,ruhig,,"calm, tranquilo",general,251
+TRUE,noun,der ,Strand,Strände,"beach, playa",travel,251
 TRUE,noun,der ,Zug,Züge,tren,travel,251
 TRUE,pronoun,,etwas,,"something, algo",travel,251
 TRUE,noun,der ,Flughafen,Flughäfen,"airport, aereopuerto",travel,251
@@ -250,3 +254,25 @@ TRUE,noun,der ,Hafen,Häfen,"port, puerto",travel,251
 TRUE,noun,die,Wolke,Wolken,"cloud, nube",travel,251
 TRUE,noun,die,Kreuzfahrt,,cruise,travel,251
 TRUE,noun,das,Schiff,Schiffe,Ship,travel,251
+TRUE,question,,Was,,"what, que",general,251
+TRUE,adjective,,ganzen,,"entire, completo",general,251
+TRUE,skill,,ganzen Tag lang,,all day long,"general, travel",251
+TRUE,adverb,,dabei,,"with, con","general, travel",251
+TRUE,skill,,Wie gefällt dir ...,,"how do you like, que te parece","general, travel",251
+TRUE,skill,,Mir gefällt ...,,"I like, me gusta","general, travel",251
+TRUE,skill,,Wir machen Urlaub,,"we are on vacation, estamos de vacaciones","general, travel",251
+TRUE,question,,Wohin,,"where, donde",general,251
+TRUE,question,,Wo,,"where, donde",general,251
+TRUE,question,,Wen,,"whom, quien",general,252
+TRUE,verb,,hoffen,,"hope, esperar",general,252
+TRUE,verb,,verfassen,,"conpose, componer",travel,252
+TRUE,verb,,erhelten,,"receive, recibir",travel,252
+TRUE,verb,,Liebe,,"dear, querido",travel,252
+TRUE,adjective,,länger,,"longer, largo",general,252
+TRUE,adverb,,noch,,"still, todavia",general,252
+TRUE,verb,das,Wetter,,"weather, clima","travel, weather",252
+TRUE,adverb,,besonders,,"especially, especialmente",general,252
+TRUE,noun,,Schnee,Schnee,snow,"travel, weather",252
+TRUE,verb,,gefahrlich,,dangerous,general,252
+TRUE,verb,,weinen,,"cry, llorar",general,252
+TRUE,verb,,versuchen,,"try, intentar",general,252
