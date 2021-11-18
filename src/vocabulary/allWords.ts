@@ -70,5 +70,5 @@ export {
     getRandomWord,
     getRandomPlural,
     getCategories,
-    getTypes
+    getTypes,
 }
