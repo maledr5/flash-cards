@@ -14,7 +14,7 @@ const Vocabulary = () => {
     const [selectedCategory, setSelectedCategory] = useState(ALL_CATEGORIES)
     const [selectedType, setSelectedType] = useState(ALL_TYPES)
     const [randomWord, setRandomWord] = useState(getRandomWord(selectedCategory, selectedType))
-    const translations = randomWord.translations
+    const translations = randomWord && randomWord.translations
 
     useEffect(()=>{
         setRandomWord(getRandomWord(selectedCategory, selectedType))
@@ -70,9 +70,13 @@ const Vocabulary = () => {
                 <select onChange={onTypeSelected}>
                     {renderTypes()}
                 </select>
-                <h1>{getRandomPlural(randomWord)}</h1>
-                <input type="text" ref={answerInput}/>
-                <h2>{feedback}</h2>
+                {randomWord ? (
+                    <div>
+                        <h1>{getRandomPlural(randomWord)}</h1>
+                        <input type="text" ref={answerInput}/>
+                        <h2>{feedback}</h2>
+                    </div>
+                ) : <div>No words matching selected filters</div>}
             </form>
         </div>
     );
