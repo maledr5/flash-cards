@@ -1,4 +1,4 @@
-import React, { ChangeEvent, FormEvent } from "react";
+import React, { ChangeEvent, FC, FormEvent } from "react";
 import {
     getRandomWord,
     getRandomPlural,
@@ -6,19 +6,24 @@ import {
     getTypes,
     ALL_CATEGORIES,
     ALL_TYPES
-} from "./vocabulary/allWords";
+} from "./vocabulary/wordHelper";
 import {useEffect, useRef, useState} from "react";
+import { Word } from "./vocabulary/wordParser";
 
-const Vocabulary = () => {
+type VocabularyProps = {
+    wordList: Word[]
+}
+
+const Vocabulary: FC<VocabularyProps> = ({wordList}) => {
     const [feedback, setFeedback] = useState("Type your answer")
     const [selectedCategory, setSelectedCategory] = useState(ALL_CATEGORIES)
     const [selectedType, setSelectedType] = useState(ALL_TYPES)
-    const [randomWord, setRandomWord] = useState(getRandomWord(selectedCategory, selectedType))
+    const [randomWord, setRandomWord] = useState(getRandomWord(wordList, selectedCategory, selectedType))
     const translations = randomWord.translations
 
     useEffect(()=>{
-        setRandomWord(getRandomWord(selectedCategory, selectedType))
-    },[selectedCategory, selectedType])
+        setRandomWord(getRandomWord(wordList, selectedCategory, selectedType))
+    },[selectedCategory, selectedType, wordList])
 
     const answerInput = useRef<HTMLInputElement>(null)
 
@@ -38,10 +43,10 @@ const Vocabulary = () => {
                 setFeedback(`Sorry, meaning is: ${translations.join(', ')}`)
             answerInput.current.value = ""
         }
-        setRandomWord(getRandomWord(selectedCategory, selectedType))
+        setRandomWord(getRandomWord(wordList, selectedCategory, selectedType))
     }
 
-    const renderCategories = () => getCategories()
+    const renderCategories = () => getCategories(wordList)
         .map(category => (
             <option value={category} key={category}>{category}</option>
         ))
@@ -51,7 +56,7 @@ const Vocabulary = () => {
         setSelectedCategory(newCategory)
     }
 
-    const renderTypes = () => getTypes()
+    const renderTypes = () => getTypes(wordList)
         .map(type => (
             <option value={type} key={type}>{type}</option>
         ))
