@@ -46,7 +46,7 @@ const Vocabulary: FC<VocabularyProps> = ({wordList}) => {
         setRandomWord(getRandomWord(wordList, selectedCategory, selectedType))
     }
 
-    const renderCategories = () => getCategories(wordList)
+    const renderCategories = () => getCategories(wordList, selectedType)
         .map(category => (
             <option value={category} key={category}>{category}</option>
         ))
@@ -56,14 +56,14 @@ const Vocabulary: FC<VocabularyProps> = ({wordList}) => {
         setSelectedCategory(newCategory)
     }
 
-    const renderTypes = () => getTypes(wordList)
+    const renderTypes = () => getTypes(wordList, selectedCategory)
         .map(type => (
             <option value={type} key={type}>{type}</option>
         ))
 
     const onTypeSelected = (e: ChangeEvent<HTMLSelectElement>) => {
-        const newCategory = e.target.value
-        setSelectedType(newCategory)
+        const newType = e.target.value
+        setSelectedType(newType)
     }
 
     return (
