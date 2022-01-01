@@ -1,11 +1,11 @@
 import './App.css';
-import VocabularyPractice from "./VocabularyPractice";
+import MemoryAid from "./MemoryAid";
 
 
 function App() {
     return (
-        <div>
-            <VocabularyPractice />
+        <div className="App">
+            <MemoryAid />
         </div>
     )
 }

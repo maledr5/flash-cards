@@ -2,6 +2,9 @@ import { Word } from './wordParser'
 
 const ALL_CATEGORIES = 'All Categories'
 const ALL_TYPES = 'All Types'
+enum wordTypes {
+    NOUN = "noun"
+}
 
 const __filterByCategory = (wordList: Word[], categoryFilter: string) => {
     if (categoryFilter === ALL_CATEGORIES) return wordList
@@ -13,11 +16,19 @@ const __filterByType = (wordList: Word[], typeFilter: string) => {
     return wordList.filter(word => word.type === typeFilter )
 }
 
-const getRandomWord = (wordList: Word[], categoryFilter: string, typeFilter: string) => {
+const getFilteredRandomWord = (wordList: Word[], categoryFilter: string, typeFilter: string) => {
     let filteredByCategory = __filterByCategory(wordList, categoryFilter)
     const filteredWords = __filterByType(filteredByCategory, typeFilter)
-    const randomNum = Math.floor(Math.random() * filteredWords.length)
-    return filteredWords[randomNum]
+    return getRandomWord(filteredWords)
+}
+
+const getRandomWord = (wordList: Word[]) => {
+    const randomNum = Math.floor(Math.random() * wordList.length)
+    return wordList[randomNum]
+}
+
+const getWordsByType = (wordList: Word[], type: wordTypes) => {
+    return wordList.filter(word => word.type === type)
 }
 
 const getRandomPlural = (word: Word) => {
@@ -51,8 +62,11 @@ const getTypes = (wordList: Word[], selectedCategory: string) => {
 export {
     ALL_CATEGORIES,
     ALL_TYPES,
+    wordTypes,
     getRandomWord,
+    getFilteredRandomWord,
     getRandomPlural,
     getCategories,
-    getTypes
+    getTypes,
+    getWordsByType
 }
