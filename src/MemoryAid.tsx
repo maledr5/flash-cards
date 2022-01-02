@@ -1,4 +1,4 @@
-import React, { FormEvent, useState } from "react";
+import React, { useState } from "react";
 import VocabularyPractice from "./VocabularyPractice";
 import { germanWords, translatedWords } from "./vocabulary/wordParser";
 import GenderPractice from "./GenderPractice";

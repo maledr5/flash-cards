@@ -1,0 +1,252 @@
+needsPractice,type,pronoun,singular,plural,translations,categories,class
+TRUE,adverb,,beides,,"both, ambos",adverb,
+TRUE,adverb,,andere,,"other, otro",adverb,
+TRUE,adverb,,draußen,,"outside, afuera",adverb,
+TRUE,adverb,,manchmal,,"sometimes, algunas veces",adverb,
+TRUE,adverb,,meisten,,"most, la mayoria",adverb,
+TRUE,adverb,,nochmal,,"again, de nuevo",adverb,
+TRUE,adverb,,zuerst,,"first, primero",adverb,
+TRUE,adverb,,danach,,"after, despues",adverb,
+TRUE,adverb,,früh,,"early, temprano",adverb,
+TRUE,adverb,,niemand,,"nobody, nadie",adverb,
+TRUE,adverb,,immer,,"always, siempre",adverb,
+TRUE,adverb,,unterschied,,"difference, diferencia",adverb,
+TRUE,noun,der,Würfel,,"cube, cubo",body,
+TRUE,adjective,,schlecht,,"malo, bad",general,
+TRUE,adjective,,echter,,"verdadero, real",general,
+TRUE,adjective,,weibliche,,"female,femenino",general,
+TRUE,adjective,,lieblings,,"favourite, favorito",general,
+TRUE,adjective,,hässlich,,"ugly, feo",general,
+TRUE,adjective,,hell,,"bright, brillante",general,
+TRUE,adjective,,dunkel,,"dark, obscuro",general,
+TRUE,adjective,,bequem,,"comfortable, comodo",general,
+TRUE,adjective,,dicke,,"thick, grueso",general,
+TRUE,noun,die,Eigenschaft,Eigenschaften,"property, propiedad",general,
+TRUE,noun,der,Stift,Stifte,"pen, esfero",general,
+TRUE,noun,das,Lieder,,"song, cancion",general,
+TRUE,noun,das,Kleid,,"dress, vestido",general,
+TRUE,noun,das,Holz,,"wood, madera",general,
+TRUE,noun,das,Leder,,"leather, cuero",general,
+TRUE,noun,der,Hals,,"throat, cuello",general,
+TRUE,noun,der,Schlafanzug,,pijama,general,
+TRUE,noun,die,Krawatte,,"tie, corbata",general,
+TRUE,verb,,schneiden,,"cut, cortar",general,
+TRUE,verb,,lachen,,"laugh, reir",general,
+TRUE,verb,,schauen,,"watch, ver",general,
+TRUE,verb,,bereiten,,"prepare, preparar",general,
+TRUE,verb,,duscht,,"take a shower, tomar una ducha",general,
+,verb,,aussehen,,"look, mirar",general,
+TRUE,noun,,gegenteil,,"opposite, ",general,
+TRUE,adjective,,erste,,"first, primero",general,
+TRUE,adjective,,dritte,,third,general,
+TRUE,adverb,,schlussendlich,,"finally, finalmente",general,
+TRUE,verb,,sehen,,"see, ver",general,
+TRUE,verb,,ziehen,,"pull, jalar",general,
+TRUE,verb,,erkennen,,"recognize, reconocer",general,213
+TRUE,verb,,benennen,,"name, nombrar",general,213
+TRUE,verb,,anwenden,,"apply, aplicar",general,213
+TRUE,verb,,bleiben,,"stay, permanecer",general,214
+TRUE,adverb,,lieber,,"rather, mas bien",general,214
+TRUE,verb,,überlegt,,"consider, considerar",general,214
+TRUE,adverb,,bestimmt,,"definitely, definitivamente",general,214
+TRUE,adjective,,spannend,,"exciting, emocionante",general,214
+TRUE,adverb,,bald,bald,"soon, pronto",general,215
+TRUE,noun,der,Bauarbeiter,,"construction worker, obrero",house,
+TRUE,noun,das,Gerät,Geräte,"equipment, equipo",officeEquipment,215
+TRUE,noun,die,Verbindung,Verbindungen,"connection, conexion",officeEquipment,215
+TRUE,verb,,verbinden,,"connect, conectar",officeEquipment,215
+TRUE,noun,der,Bildschirm,Bildschirme,monitor,officeEquipment,215
+TRUE,noun,der,Drucker,Drucker,"printer, impresora",officeEquipment,215
+TRUE,noun,die,Tastatur,Tastaturen,"keyboard, teclado",officeEquipment,215
+TRUE,verb,,antworten,,"reply, responder",officeEquipment,215
+TRUE,noun,der,Brief,Briefe,"letter, carta",officeEquipment,215
+TRUE,noun,der,Briefumschlag,Briefumschläge,"envelope, sobre",officeEquipment,215
+TRUE,noun,das,Papier,Papiere,"paper, papel",officeEquipment,215
+TRUE,noun,die ,Post,Post,"post, correo",officeEquipment,215
+TRUE,noun,der,Bleistift,Bleistifte,"pencil, lapiz",officeEquipment,215
+TRUE,noun,das,Internet,,internet,officeEquipment,215
+TRUE,noun,das,Dokument,Dokumente,"document, documento",officeEquipment,215
+TRUE,noun,die ,Postkarte,Postkarten,"postcard, postal",officeEquipment,215
+TRUE,verb,,schicken (dir),,"send, enviarte",officeEquipment,215
+TRUE,verb,,verschicken,,"send, enviar",officeEquipment,215
+TRUE,noun,die,Anschrift,Anschriften,"address, direccion",officeEquipment,215
+TRUE,noun,die,Briefmarke,Briefmarken,"stamp, estampilla",officeEquipment,215
+TRUE,noun,der,Briefkasten,,"mailbox, buzon",officeEquipment,215
+TRUE,noun,das,Paket,Pakete,"parcel, paquete",officeEquipment,215
+TRUE,noun,die,Sendung,,"sending, envio",officeEquipment,215
+TRUE,noun,der,Postbote,,"postman, cartero",officeEquipment,215
+TRUE,noun,die,Tüte,Tüten,"bag, bolsa",officeEquipment,215
+TRUE,verb,,überraschen,,"surprise, sorprender",officeEquipment,215
+TRUE,noun,der,Feuerwehrmann,,"firefighter, bombero",professions,
+TRUE,noun,der,Mitschülerin,,"classmate, compañero de clase",professions,
+TRUE,noun,der,Krankenpfleger,,"nurse, enfermero","professions, health",
+TRUE,noun,der,Schauspieler,,actor,professions,
+TRUE,noun,die,Sängerin,,"singer, cantante",professions,
+TRUE,noun,die ,Ärztin,Ärztinnen,"doctor, doctora",professions,211
+TRUE,noun,der,Schriftsteller,Schriftsteller,"writer, escritor",professions,211
+TRUE,noun,der,Lehrer,Lehrer,"teacher, profesor",professions,211
+TRUE,noun,der,Schüler,Schüler,"student, estudiante",professions,211
+TRUE,noun,die,Mode-Designerin,,diseñador de moda,professions,211
+TRUE,noun,der,Informatiker,,"develper, informático",professions,211
+TRUE,noun,der,Polizist,,policia,professions,211
+TRUE,noun,der,Koch,,"cook, cocinero",professions,211
+TRUE,noun,der,Student,,estudiante,professions,211
+TRUE,noun,der,Architekt,,arquitecto,professions,211
+TRUE,noun,die,Architektin,,arquitecta,professions,211
+TRUE,noun,der ,Frisör,,peluquero,professions,211
+TRUE,noun,die,Friseurin,,peluquera,professions,211
+TRUE,noun,der,Artz,Ärzte,doctor,professions,211
+TRUE,noun,der,Sekretär,,secretario,professions,211
+TRUE,noun,der,Taxifahrer,,taxista,professions,211
+TRUE,noun,die,Feuerwehrfrau,,bombera,professions,211
+TRUE,noun,die,Krankenschwester,,enfermera,professions,211
+TRUE,noun,der,Chef,,jefe,professions,211
+TRUE,noun,die,Chefin,,jefa,professions,211
+TRUE,noun,der,Kollege,,colega,professions,211
+TRUE,noun,die,Kollegin,,colega,professions,211
+TRUE,noun,die,Bauarbeiterin,,"construction worker, obrera",professions,211
+TRUE,noun,der,Musiker,,musician,professions,211
+TRUE,noun,der ,Manager,,manager,professions,212
+TRUE,question,,Wie,,"how, como",questions,
+TRUE,adjective,,teuer,,"expensive, caro",shopping,
+TRUE,adjective,,günstig,,"cheap, barato",shopping,
+TRUE,adjective,,billig,,"cheap, barato",shopping,
+TRUE,adjective,,wenig,,"little, poco",shopping,
+TRUE,adjective,,gestreift,,"striped,rayado",shopping,
+TRUE,adjective,,gepunktet,,"dotted,punteado",shopping,
+TRUE,adjective,,bunt,,"colorful,colorido",shopping,
+TRUE,adjective,,koloriert,,"colorful,colorido",shopping,
+TRUE,noun,das,Geschäft,Geschäfte ,"business, negocio",shopping,
+TRUE,noun,das,Angebot,Angebote,"offer, oferta",shopping,
+TRUE,noun,die,Sache,Sachen,"thing, cosa",shopping,
+TRUE,noun,das,Geld,Gelder,"money, dinero",shopping,
+TRUE,noun,die,Karte,,"card, tarjeta",shopping,
+TRUE,noun,das,Bargeld (bar),,"cash, efectivo",shopping,
+TRUE,noun,das,Geschenk,Geschenke,"gift, regalo",shopping,
+TRUE,noun,die,Münze,Münzen,"coin, moneda",shopping,
+TRUE,noun,der,Schein,Scheine,"bill, billete",shopping,
+TRUE,noun,der,Verkäufer,,"seller, vendedor",shopping,
+TRUE,noun,die,Kleidung (pl),Kleidung (pl),"clothes, ropa",shopping,
+TRUE,noun,die,Klamotten (pl),Klamotten (pl),"clothes, ropa",shopping,
+TRUE,noun,die,Schuh,Schuhe,"shoes, zapatos",shopping,
+TRUE,noun,die,Handschuh,Handschuhe,"gloves, guantes",shopping,
+TRUE,noun,die,Socke,Socken,"socks, medias",shopping,
+TRUE,noun,die,Jeans,Jeans,jeans,shopping,
+TRUE,noun,die,Hose,,"pants, pantalon",shopping,
+TRUE,noun,die,Bluse,,"blouse, blusa",shopping,
+TRUE,noun,die,Jacke,,"jacket, chaqueta",shopping,
+TRUE,noun,die,Weste,,"vest, chaleco",shopping,
+TRUE,noun,die,Stiefel,,"boots, botas",shopping,
+TRUE,noun,die,Mode,,"fashion, moda",shopping,
+TRUE,noun,die,Mütze,,"beanie, gorro",shopping,
+TRUE,noun,die,Kappe,,"cap, gorra",shopping,
+TRUE,noun,der,Pullover,,"sweather, saco",shopping,
+TRUE,noun,der,Rock,,"skirt, falda",shopping,
+TRUE,noun,der,Mantel,,"long coat, chaqueta",shopping,
+TRUE,noun,der,Schal,,"scarf, bufanda",shopping,
+TRUE,noun,der,Hut,,"hat, sombrero",shopping,
+TRUE,noun,das,Hemd,,"shirt, camisa",shopping,
+TRUE,noun,das,Lächeln,,"smile, sonrisa",shopping,
+TRUE,noun,das,T-Shirt,,"T-shirt, camiseta",shopping,
+TRUE,noun,das,halstuch,,"neckerchief, pañuelo",shopping,
+TRUE,noun,der,Wünsche,,"wishes, deseos",shopping,
+TRUE,noun,die,kasse,,"cashier, caja",shopping,
+TRUE,noun,die,Umkleidekabine,,"changing room, vestidor",shopping,
+TRUE,verb,,holen,,"fetch, traer",shopping,
+TRUE,verb,,kosten,,"cost, costo",shopping,
+TRUE,verb,,zahlen,,"pay, pagar",shopping,
+TRUE,verb,,tragen,,"wear, vestir",shopping,
+TRUE,verb,,anziehen,,"wear, ponerse",shopping,
+TRUE,verb,,anprobieren,,"try on, probarse",shopping,
+TRUE,verb,,umtauschen,,"exchange, cambiar",shopping,
+TRUE,question,,wenn,,"if, si",shopping,
+TRUE,verb,,ausziehen,,"take off, sacar",shopping,
+TRUE,verb,,sich umschauen,,"look around, mirar alrededor",shopping,
+TRUE,noun,das,Kleidungsstück,Kleidungsstücke,"clothing, clothes",shopping,
+TRUE,noun,die,Stoff,Stoffe,"fabrics, tejidos",shopping,
+TRUE,verb,,genießen,,"enjoy, disfrutar",shopping,
+TRUE,noun,,Laden,,shop,shopping,
+TRUE,question,,wer,,who,shopping,
+TRUE,verb,,braucht,,"need, necesitar",shopping,
+TRUE,adjective,,eng,,"narrow, estrecho",shopping,
+TRUE,adjective,,schmal,,"narrow, angosto",shopping,
+TRUE,adjective,,kurze,,"short, corto",shopping,
+TRUE,adjective,,weit,,"wide, ancho",shopping,
+TRUE,verb,,leisten,,"afford, poder pagar",shopping,248
+TRUE,noun,der,Gürtel,Gürtel,"belt, correa",shopping,248
+TRUE,noun,die,Kirche,Kirchen,"church, iglesia",general,248
+TRUE,noun,die,Kirsche,Kirschen,"cherry, cereza",general,248
+TRUE,verb,,aufsteht,,"get up, lvantarse",trennbare,
+TRUE,verb,,fernsehen,,"watch tv, mirar tv",trennbare,
+TRUE,verb,,aufräumen,,"clean up, limpiar",trennbare,
+TRUE,verb,,anfangen,,"start, empezer",trennbare,
+TRUE,verb,,aufbauen,,"build up, construir",trennbare,
+TRUE,verb,,entdeckt,,"discover, descubrir",trennbare,
+TRUE,verb,,empfinden,,"feel, sentir",trennbare,
+TRUE,verb,,versprechen,,"promise, promesa",trennbare,
+TRUE,verb,,abfahren,,"depart, salir",trennbare,
+TRUE,verb,,wegwerfen,,"throw away, tirar",trennbare,
+TRUE,verb,,vorbereiten,,"prepare, preparar",trennbare,
+TRUE,verb,,arbeiten,,"work, trabajar",work,211
+TRUE,noun,die,Arbeit,Arbeiten,"job, trabajo",work,211
+TRUE,noun,der ,Beruf,Berufe,"job, trabajo",work,211
+TRUE,noun,das,Büro,Büros,"office, oficina",work,211
+TRUE,noun,das,Meeting,,"meeting, reunion",work,211
+TRUE,verb,,bauen,,"build, construir",work,211
+TRUE,verb,,verkaufen,,"sell, vender",work,211
+TRUE,adjective,,hart,,"hard, dificil",work,211
+TRUE,adjective,,gut bezahlt,,"well paid, bien pagado",work,211
+TRUE,adjective,,schlecht bezahlt,,"poorly paid, mal pagado",work,211
+TRUE,adjective,,anstrengend,,"exhausting, agotador",work,211
+TRUE,adjective,,einfach,,"easy, facil",work,211
+TRUE,adjective,,langweilig,,"boring, aburrido",work,211
+TRUE,verb,,planen,,"plan, planear",work,212
+TRUE,verb,,untersuchen,,"examine, examinar",work,212
+TRUE,verb,,backen,,"bake, hornear",work,212
+TRUE,verb,,briefe zustellen,,"deliver letters, entrega cartas",work,212
+TRUE,verb,,reparieren,,"repair, reparar",work,212
+TRUE,verb,,kochen,,"cook, cocinar",work,212
+TRUE,verb,,haare schneiden,,"cut hair, cortar cabello",work,212
+TRUE,verb,,unterrichten,,"teacher, profesor",work,212
+TRUE,adjective,,in Vollzeit,,"full-time, tiempo completo",work,212
+TRUE,adjective,,in Teilzeit,,part time- medio tiempo,work,212
+TRUE,adjective,,frei,,"free, libre",work,212
+TRUE,adjective,,arbeitslos,,"unemployed, desempleado",work,212
+TRUE,verb,,pendeln,,commute,work,212
+TRUE,verb,,streiken,,"strike, protestar",work,212
+TRUE,verb,,organisieren,,"orginize, organizar",work,212
+TRUE,noun,der ,Termin,Termine,"meeting, reunion",work,212
+TRUE,noun,der,Schreibtisch,Schreibtische,"desk, escritorio",work,212
+TRUE,noun,die,Aufgabe,Aufgaben,"task, tarea",work,212
+TRUE,verb,die,idee,ideen,idea,work,214
+TRUE,verb,der,Job,,"job, trabajo",work,214
+TRUE,verb,der,Anwalt,Anwälte,abogado,work,214
+TRUE,verb,die,Anwältin,Anwältinnen,abogada,work,214
+TRUE,verb,der,Elektriker,Elektriker,electicista,work,214
+TRUE,verb,der,Zahnarzt,Zahnärzte,dentista,work,214
+TRUE,verb,,verdiene,,"deserve, merecer",work,214
+TRUE,verb,,werden,,"become, volverse",work,214
+TRUE,noun,die,Reise,Reisen,"travel, viaje",travel,251
+TRUE,verb,,reisen,,"travel, viajar",travel,251
+TRUE,noun,der,Koffer,Koffer,"suitcase, maleta",travel,251
+TRUE,adjective,,schwer,,heavy,travel,251
+TRUE,noun,das,Gepäck,Gepäcke,"luggage, equipaje",travel,251
+TRUE,verb,,einpacken,,"pack in, empacar",travel,251
+TRUE,verb,,auspacken,,"pack out, desempacar",travel,251
+TRUE,adjective,,leer,,empty,travel,251
+TRUE,adverb,,bisher,,so far,"general, travel",251
+TRUE,noun,die,Sehenswürdigkeit,Sehenswürdigkeiten,"worth seeing, sightseeing, turismo",travel,251
+TRUE,noun,der,Urlaub,Urlaube,"vacation, vacacion",travel,251
+TRUE,noun,das,Reisezizel,Reiseziele,"destination, destino",travel,251
+TRUE,noun,der,Pass,Pässe,pasaporte,travel,251
+TRUE,noun,die,Gesundheitsversicherung,,"insurance, seguro de salud",travel,251
+TRUE,noun,die,Krankenversicherung,,"insurance, seguro de salud","general, travel",251
+TRUE,verb,,brauchen,,"need, necesitar",travel,251
+TRUE,noun,die,Sonne,Sonnen,"sun, sol",travel,251
+TRUE,noun,der ,Zug,Züge,tren,travel,251
+TRUE,pronoun,,etwas,,"something, algo",travel,251
+TRUE,noun,der ,Flughafen,Flughäfen,"airport, aereopuerto",travel,251
+TRUE,noun,der ,Hafen,Häfen,"port, puerto",travel,251
+TRUE,noun,die,Wolke,Wolken,"cloud, nube",travel,251
+TRUE,noun,die,Kreuzfahrt,,cruise,travel,251
+TRUE,noun,das,Schiff,Schiffe,Ship,travel,251

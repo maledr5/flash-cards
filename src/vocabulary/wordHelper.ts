@@ -42,7 +42,7 @@ const getCategories = (wordList: Word[], selectedType: string) => {
         filteredWords = __filterByType(wordList, selectedType)
     }
     const allCategories: string[] = []
-    filteredWords.map(word => {
+    filteredWords.forEach(word => {
         allCategories.push(...word.categories)
     })
     const uniqueCategories = Array.from(new Set(allCategories))
