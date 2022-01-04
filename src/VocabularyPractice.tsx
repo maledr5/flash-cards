@@ -38,12 +38,15 @@ const VocabularyPractice: FC<VocabularyPracticeProps> = ({wordList}) => {
         event.preventDefault()
         if (answerInput && answerInput.current) {
             const answer = answerInput.current.value.trim() || ""
-            isAnswerCorrect(answer) ?
-                setFeedback("Correct!") :
+
+            if (isAnswerCorrect(answer)) {
+                setFeedback("Correct!")
+                setRandomWord(getFilteredRandomWord(wordList, selectedCategory, selectedType))
+            } else {
                 setFeedback(`Sorry, meaning is: ${translations.join(', ')}`)
+            }
             answerInput.current.value = ""
         }
-        setRandomWord(getFilteredRandomWord(wordList, selectedCategory, selectedType))
     }
 
     const renderCategories = () => getCategories(wordList, selectedType)
