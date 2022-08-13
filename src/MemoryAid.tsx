@@ -35,7 +35,7 @@ const MemoryAid = () => {
 
                 <input type="radio" id={FILL_IN_GENDER}
                        name="exerciseType" value={FILL_IN_GENDER} onChange={onOptionSelected}/>
-                <label htmlFor={FILL_IN_GENDER}>Fill in German</label>
+                <label htmlFor={FILL_IN_GENDER}>Pronouns</label>
             </div>
             <br/><br/>
             {

@@ -3,7 +3,7 @@ Tech
 - Add typescript
 - Separate v2 into components
 - Add unit tests
-
+- Add gender in words that pop up 
 Features
 [/] Add type as filter too
 [/] Change category filter to have a list and not only 1 category

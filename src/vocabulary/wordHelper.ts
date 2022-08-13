@@ -19,6 +19,7 @@ const __filterByType = (wordList: Word[], typeFilter: string) => {
 const getFilteredRandomWord = (wordList: Word[], categoryFilter: string, typeFilter: string) => {
     let filteredByCategory = __filterByCategory(wordList, categoryFilter)
     const filteredWords = __filterByType(filteredByCategory, typeFilter)
+    console.log("# of words: ", filteredWords.length)
     return getRandomWord(filteredWords)
 }
 
@@ -45,7 +46,7 @@ const getCategories = (wordList: Word[], selectedType: string) => {
     filteredWords.forEach(word => {
         allCategories.push(...word.categories)
     })
-    const uniqueCategories = Array.from(new Set(allCategories))
+    const uniqueCategories = Array.from(new Set(allCategories)).sort()
     return [ALL_CATEGORIES, ...uniqueCategories]
 }
 
@@ -55,7 +56,7 @@ const getTypes = (wordList: Word[], selectedCategory: string) => {
         filteredWords = __filterByCategory(wordList, selectedCategory)
     }
     const allTypes = filteredWords.map((word) => word.type)
-    const uniqueTypes = Array.from(new Set(allTypes))
+    const uniqueTypes = Array.from(new Set(allTypes)).sort()
     return [ALL_TYPES, ...uniqueTypes]
 }
 
